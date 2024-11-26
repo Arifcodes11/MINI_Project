@@ -1,0 +1,92 @@
+/* About.css */
+/* 
+.about-container {
+    padding: 20px;
+    text-align: center;
+    margin-top:10px ;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card h2 {
+    font-size: 22px;
+     margin-bottom: 0  !important;
+     
+}
+
+.card p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card p span{
+    font-size: 12px;
+    margin: 0 !important;
+
+} */
+.about-us-container {
+    max-width: 950px;    
+    margin: auto;
+    padding: 20px;
+    background-color: #333;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    justify-self: center;
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+.about-us-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-us-container h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.about-us-container ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.about-us-container ul li {
+    margin-bottom: 10px;
+}
+
+.join-us {
+    margin-top: 20px;
+}
+
+.about_main{
+    
+    font-size: large;
+    padding: 15px;
+}
+
+.about_main h1{
+    display: flex;
+    justify-content: center;    
+}

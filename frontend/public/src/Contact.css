@@ -1,0 +1,51 @@
+/* About.css */
+
+.contact_top1 {
+  padding: 20px;
+  text-align: center;
+  margin-top:10px;
+
+}
+
+.contact_top1_sub {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  display: flex;
+  
+}
+
+.contact_card {
+  background-color: #333;
+  border: 1px solid #ff6347;
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+}
+  
+.contact_card h2 {
+  font-size: 22px;
+   margin-bottom: 0  !important;
+   
+}
+
+.contact_card p {
+  margin: 5px 0;
+  color: white;
+}
+
+.contact_card:hover {
+  transform: translateY(-5px);
+}
+
+.contact_card p span{
+  font-size: 12px;
+  margin: 0 !important;
+
+}
+
+.contact_footer{
+  position: absolute;
+  bottom: 0;
+}

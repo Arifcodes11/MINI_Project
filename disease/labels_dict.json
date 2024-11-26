@@ -1,0 +1,12 @@
+{
+    "0": ["Tomato - Bacterial_spot"," precaution: Disease-free seeds and seedlings, crop rotation, copper and organic fungicide sprays, antibiotic spray (Agrimycin-100)"],
+    "1": ["Tomato - Early_blight"," precaution: Remove infected plant parts, crop rotation, fungicides (Difolatan, Dithane M-45, Bavistin)"],
+    "2": ["Tomato - Healthy"," precaution: No action required"],
+    "3": ["Tomato - Late_blight"," precaution: Crop rotation, disease-free seeds and transplants, fungicides (Captafol, Dithane M-45)"],
+    "4": ["Tomato - Leaf_Mold"," precaution: Crop rotation, disease-free seeds and transplants, fungicides (Captafol, Dithane M-45)"],
+    "5": ["Tomato - Septoria_leaf_spot"," precaution: Remove infected plant parts, seed treatment with fungicides (Thiram, Dithane M-45), fungicide (Dithane Z-78)"],
+    "6": ["Tomato - Target_Spot"," precaution: Crop rotation, disease-free seeds and transplants, fungicides (Captafol, Dithane M-45)"],
+    "7": ["Tomato - Tomato_Yellow_Leaf_Curl_Virus"," precaution: Remove infected plants, remove alternate hosts, control whitefly population with insecticides (Furadan, Dimethoate, Monocrotophos), use of border crops or polythene mulch"],
+    "8": ["Tomato - Tomato_mosaic_virus"," precaution: Disease-free seeds, seed treatment with Trisodium Phosphate, removing infected plants, crop rotation"],
+    "9": ["Tomato - Two-spotted_spider_mite"," precaution: Crop rotation, disease-free seeds and transplants, fungicides (Captafol, Dithane M-45)"]
+}

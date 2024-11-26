@@ -1,0 +1,35 @@
+.disease_main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure div extends to at least full viewport height */
+}
+
+.disease_main_sub {
+    flex: 1; 
+    margin-top: 30px;
+    /* This will make this div take up remaining space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.disease_main_sub h2{
+    font-weight: 400;
+   
+}
+
+.disease_main_sub input{
+    width: 200px;
+    height: 30px;  
+    font-size: 15px;
+}
+
+.disease_main_sub p{
+    color: #ff6347;
+    border: 0.5px dashed white ;
+}
+    
+
+

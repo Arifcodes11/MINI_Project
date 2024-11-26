@@ -1,0 +1,21 @@
+.content_temp {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.temp_card{
+  border: .75px solid #ff6347;
+  padding: 25px;
+  background-color: #333;
+  border-radius: 05%;
+  font-size: large;
+}
+ 
+
+.footer_div_temp{
+    position: absolute;
+    bottom: 0;
+}

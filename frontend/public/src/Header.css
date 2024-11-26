@@ -1,0 +1,79 @@
+Reset some default styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+/* Style the header */
+.header {
+  width: 100%;
+  background-color: #333;
+  padding: 10px 0;
+  position: fixed; /* Fixed positioning to keep it at the top */
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  
+}
+
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 10px;/* Adjust gap between items */
+  margin: 0;
+  padding: 0;
+  width: 100%; /* Ensure full width */
+  justify-content: space-around;
+}
+
+/* Style the navigation items */
+.nav-item {
+  margin: 0;
+}
+
+/* Style the links */
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+  
+}
+
+.nav-item a:hover {
+  color: #ff6347;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+    gap: 10px; /* Adjust gap for smaller screens */
+    display: none;
+  }
+
+  .nav-list.active {
+    display: flex;
+  }
+
+  .nav-item {
+    margin: 10px 0;
+  }
+
+  .nav-toggle {
+    display: block;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+  }
+}
+
+/* Show the nav-toggle button on smaller screens */
+@media (min-width: 769px) {
+  .nav-toggle {
+    display: none;
+  }
+}

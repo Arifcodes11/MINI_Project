@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="logo.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Tomato</title>
+  <style>
+    /* Hide the Google Translate banner */
+    
+    .goog-te-gadget-simple {
+      height: 10px !important;
+      width: 20px !important;
+      position: fixed;
+      top: 10px;
+      right: 40px;
+    }
+    
+.goog-te-gadget img {
+      height: 20px !important;
+      width: 20px !important;
+      position: absolute;
+      top: 40px !important;
+      right: 40px !important;
+      color: beige;
+      
+
+    }
+    body {
+      top: 0px !important;
+    }
+    .VIpgJd-ZVi9od-ORHb-OEVmcd {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+  <div id="google_translate_element"></div>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en', // Original page language
+        includedLanguages: 'kn,en', // Include Kannada and English
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      }, 'google_translate_element');
+    }
+
+    function loadGoogleTranslate() {
+      const script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+      document.body.appendChild(script);
+    }
+
+    function setDefaultLanguage() {
+      
+      if (true) {
+        select.value = 'kn'; // Kannada language code
+        // Simulate change event
+        const event = new Event('change');
+        select.dispatchEvent(event);
+      }
+    }
+
+    loadGoogleTranslate();
+
+    // Attempt to set the default language to Kannada after a short delay to allow the Translate widget to load
+    setTimeout(setDefaultLanguage, 3000); // Delay might need to be adjusted based on load time
+  </script>
+</body>
+</html>

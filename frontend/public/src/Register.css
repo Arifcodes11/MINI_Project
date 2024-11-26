@@ -1,0 +1,10 @@
+.container_register{
+    display: flex;
+    padding: 45px;
+
+}
+
+.register_footer{
+    position: absolute;
+    bottom: 0;
+}
